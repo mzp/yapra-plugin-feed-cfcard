@@ -2,11 +2,11 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
-require "yapra/plugin/feed/cfcard"
+require "yapra/plugin/feed/cfcard/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "yapra-plugin-feed-cfcard"
-  spec.version       = Yapra::Plugin::Feed::Cfcard::VERSION
+  spec.version       = '0.1.0'
   spec.authors       = ["mzp"]
   spec.email         = ["mzpppp@gmail.com"]
   spec.description   = %q{TODO: Write a gem description}
