@@ -1,7 +1,8 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'yapra/plugin/feed/cfcard/version'
+
+require "yapra/plugin/feed/cfcard"
 
 Gem::Specification.new do |spec|
   spec.name          = "yapra-plugin-feed-cfcard"
